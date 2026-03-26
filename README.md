@@ -1,1 +1,0 @@
-# Festival-Manager-Pro
