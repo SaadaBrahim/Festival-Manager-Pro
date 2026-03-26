@@ -26,5 +26,11 @@ public class Main{
 
         manager.stampaLista(); // no pepe
 
+        System.out.println("biglietti");
+        manager.scansionaBiglietto(new Ticket("TICK-101", "marco"));
+        manager.scansionaBiglietto(new Ticket("TICK-101", "clone"));
+        manager.scansionaBiglietto(new Ticket("TICK-102", "sofia"));
+  
+        System.out.println("partecipanti: " + manager.getNumeroPartecipanti());
     }
 }
